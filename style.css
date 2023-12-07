@@ -1,0 +1,165 @@
+@font-face {
+    font-family: myfont;
+    src: url(bloody.ttf.otf);
+}
+
+@font-face {
+    font-family: our;
+    src: url(bloody.ttf.otf);
+}
+
+@font-face {
+    font-family: bloody;
+    src: url(BLOODY.TTF);
+}
+
+body{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row{
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 950px;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(236, 236, 236, 0.35);
+     /* box-shadow: inset -5px -5px rgba(236, 236, 236, 0.35)  */
+    /* border-radius: 25px;
+    box-sizing: border-box; */
+    
+}
+
+h1{
+    font-family: bloody;
+    color: #8B0000;
+    font-size: 100px;
+}
+
+h2{
+    font-family: bloody;
+    color: #8B0000;
+    font-size: 80px;
+    text-align: center;
+}
+
+h3{
+    font-family: bloody;
+    color: #8B0000;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.para{
+    color: #8B0000;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.para2{
+    color: #8B0000;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.para3{
+    color: #8B0000;
+    font-size: 40px;
+    font-weight: bold;
+
+
+    /* padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content; */
+}
+
+
+/* .launch-time{
+    font-family: bloody;
+    color: #8B0000;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+} */
+
+
+h2 a{
+    color: #FF0000	;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content; 
+    
+    
+}
+
+h4{
+    font-family: bloody;
+    color: #8B0000;
+    font-size: 50px;
+    text-align: center;
+}
+
+.para4{
+    color: #8B0000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.col1{
+    color: #8B0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.col2{
+    color: #8B0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.col{
+    display: flex;
+    gap: 100px;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #FF0000;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content; 
+    
+}
+
+.d a{
+    font-size: 40px;
+}
+
+.underline{
+    height: 1px;
+    width: 700px;
+    background-color: black;
+    
+}
